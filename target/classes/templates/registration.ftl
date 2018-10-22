@@ -2,10 +2,10 @@
 <#import "parts/login.ftl" as l>
 
 <@c.page>
-        <div>
+        <div class="mb-1">
         Register new user here!
         	${message!}
         </div>
         
-<@l.login "/registration" />
+<@l.login "/registration" true/>
 </@c.page>

@@ -3,8 +3,7 @@
 
 <@c.page>
 <div>
-<@l.logout />
-<span><a href="/user">user list</a></span>
+
 <div>
 <form method="post" enctype="multipart/form-data">
 <input type="text" name="text" placeholder="type message..." />
